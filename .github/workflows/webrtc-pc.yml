@@ -72,7 +72,7 @@ jobs:
               title: 'Closed Issues (since last publication)'
               issue_query: 'repo:w3c/webrtc-pc is:closed is:issue created:>=2017-03-21 sort:created-asc'
               limit: 100  
-        token: 
+        token: {{ github.token }}
     - name: Test
       run: |
         git add .
