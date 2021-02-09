@@ -16,7 +16,7 @@ json = JSON.parse(data);
 
 for (var i=0; i<json.specifications.length; i++) {
     var file = json.specifications[i].repo.split('/').pop();
-    var context = { "spec": json.specifications[i].title, "repo": json.specifications[i].repo, "shortname": json.specifications[i].shortname };
+    var context = { "spec": json.specifications[i].title, "repo": json.specifications[i].repo, "shortname": json.specifications[i].shortname, "file": file };
     const content = template(context);
     fs.writeFileSync('./.github/workflows/'+file+'.yml', content);
 }

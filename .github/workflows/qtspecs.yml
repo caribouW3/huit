@@ -1,4 +1,4 @@
-name: Build Dashboard
+name: Build Dashboard w3c/qtspecs
 on:
   workflow_dispatch:
 jobs:
@@ -19,7 +19,7 @@ jobs:
           title: 
           output:
             format: html
-            filename: "out/dashboard-xquery"
+            filename: "out/dashboard-qtspecs"
           sections:
           - title: 'Open Issues by Type'
             description: 'Queries of issues by type, using their label.'

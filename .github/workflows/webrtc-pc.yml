@@ -1,4 +1,4 @@
-name: Build Dashboard
+name: Build Dashboard w3c/webrtc-pc
 on:
   workflow_dispatch:
 jobs:
@@ -19,7 +19,7 @@ jobs:
           title: 
           output:
             format: html
-            filename: "out/dashboard-webrtc"
+            filename: "out/dashboard-webrtc-pc"
           sections:
           - title: 'Open Issues by Type'
             description: 'Queries of issues by type, using their label.'

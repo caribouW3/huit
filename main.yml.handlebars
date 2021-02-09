@@ -1,4 +1,4 @@
-name: Build Dashboard
+name: Build Dashboard {{ repo }}
 on:
   workflow_dispatch:
 jobs:
@@ -19,7 +19,7 @@ jobs:
           title: {{ title }}
           output:
             format: html
-            filename: "out/dashboard-{{ shortname }}"
+            filename: "out/dashboard-{{ file }}"
           sections:
           - title: 'Open Issues by Type'
             description: 'Queries of issues by type, using their label.'
