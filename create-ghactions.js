@@ -15,10 +15,9 @@ var data = `{ "specifications": [
 json = JSON.parse(data);
 
 for (var i=0; i<json.specifications.length; i++) {
-//    console.log( json.specifications[i].title + json.specifications[i].repo);
+    var file = json.specifications[i].repo.split('/').pop();
     var context = { "spec": json.specifications[i].title, "repo": json.specifications[i].repo, "shortname": json.specifications[i].shortname };
-//    console.log(context);
     const content = template(context);
-    fs.writeFileSync('./tmp/main.yml', content);
+    fs.writeFileSync('./.github/workflows/'+file+'.yml', content);
 }
  
