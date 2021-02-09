@@ -19,7 +19,7 @@ jobs:
           title: 
           output:
             format: html
-            filename: "out/dashboard-webrtc-pc"
+            filename: "out/dashboard-webrtc-pc.html"
           sections:
           - title: 'Open Issues by Type'
             description: 'Queries of issues by type, using their label.'

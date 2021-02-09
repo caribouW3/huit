@@ -19,7 +19,7 @@ jobs:
           title: 
           output:
             format: html
-            filename: "out/dashboard-qtspecs"
+            filename: "out/dashboard-qtspecs.html"
           sections:
           - title: 'Open Issues by Type'
             description: 'Queries of issues by type, using their label.'
