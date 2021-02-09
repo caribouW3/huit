@@ -69,8 +69,8 @@ jobs:
               issue_query: 'repo:w3c/webrtc-pc is:open is:issue sort:created-asc'
               limit: 100  
             - type: 'table'
-              title: 'Closed Issues (since last publication)'
-              issue_query: 'repo:w3c/webrtc-pc is:closed is:issue created:>=2017-03-21 sort:created-asc'
+              title: 'Most recently closed Issues'
+              issue_query: 'repo:w3c/webrtc-pc is:closed is:issue sort:created-asc'
               limit: 100  
         token: ${{ github.token }}
     - name: Test
