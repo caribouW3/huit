@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
  
-const accessToken = '7d3202ad032c5f28206f6e94faa94c53e5d29ca2';
+const accessToken = 'yourtokenhere';
 
 function getClosedIssues(owner,repo){
   return new Promise(function (resolve, reject) {
