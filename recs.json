@@ -40,7 +40,9 @@
   "date": "2012-06-19",
   "title": "Media Queries",
   "shortlink": "https://www.w3.org/TR/css3-mediaqueries/",
-  "errata": "https://www.w3.org/Style/2012/REC-mediaqueries-20120619-errata.html"
+  "errata": "https://www.w3.org/Style/2012/REC-mediaqueries-20120619-errata.html",
+  "repo": "csswg-drafts",
+  "label": "mediaqueries-3"
 },
 {
   "status": "Recommendation",
@@ -48,7 +50,9 @@
   "uri": "https://www.w3.org/TR/2013/REC-css-style-attr-20131107/",
   "date": "2013-11-07",
   "title": "CSS Style Attributes",
-  "shortlink": "https://www.w3.org/TR/css-style-attr/"
+  "shortlink": "https://www.w3.org/TR/css-style-attr/",
+  "repo": "csswg-drafts",
+  "label": "css-style-attr-3"
 },
 {
   "status": "Recommendation",
@@ -106,7 +110,9 @@
   "uri": "https://www.w3.org/TR/2018/REC-selectors-3-20181106/",
   "date": "2018-11-06",
   "title": "Selectors Level 3",
-  "shortlink": "https://www.w3.org/TR/selectors-3/"
+  "shortlink": "https://www.w3.org/TR/selectors-3/",
+  "repo": "csswg-drafts",
+  "label": "selectors-3" 
 },
 {
   "status": "Recommendation",
@@ -131,7 +137,9 @@
   "uri": "https://www.w3.org/TR/2014/REC-css-namespaces-3-20140320/",
   "date": "2014-03-20",
   "title": "CSS Namespaces Module Level 3",
-  "shortlink": "https://www.w3.org/TR/css-namespaces-3/"
+  "shortlink": "https://www.w3.org/TR/css-namespaces-3/",
+  "repo": "csswg-drafts",
+  "label": "css-namespaces-3" 
 },
 {
   "status": "Recommendation",
@@ -295,7 +303,9 @@
   "date": "2018-06-21",
   "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
   "shortlink": "https://www.w3.org/TR/css-ui-3/",
-  "errata": "https://www.w3.org/Style/2018/REC-css-ui-3-20180621-errata.html"
+  "errata": "https://www.w3.org/Style/2018/REC-css-ui-3-20180621-errata.html",
+  "repo": "csswg-drafts",
+  "label": "css-ui-3" 
 },
 {
   "status": "Recommendation",
@@ -350,7 +360,9 @@
   "date": "2018-09-20",
   "title": "CSS Fonts Module Level 3",
   "shortlink": "https://www.w3.org/TR/css-fonts-3/",
-  "errata": "https://www.w3.org/Style/2018/REC-css-fonts-3-20180920-errata.html"
+  "errata": "https://www.w3.org/Style/2018/REC-css-fonts-3-20180920-errata.html",
+  "repo": "csswg-drafts",
+  "label": "css-fonts-3"
 },
 {
   "status": "Recommendation",
@@ -894,7 +906,9 @@
   "date": "2018-06-19",
   "title": "CSS Color Module Level 3",
   "shortlink": "https://www.w3.org/TR/css-color-3/",
-  "errata": "https://www.w3.org/Style/2018/REC-css-color-3-20180619-errata.html"
+  "errata": "https://www.w3.org/Style/2018/REC-css-color-3-20180619-errata.html",
+  "repo": "csswg-drafts",
+  "label": "css-color-3"
 },
 {
   "status": "Recommendation",
@@ -972,7 +986,9 @@
   "date": "2011-06-07",
   "title": "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification",
   "shortlink": "https://www.w3.org/TR/CSS21/",
-  "errata": "https://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html"
+  "errata": "https://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html",
+  "repo": "csswg-drafts",
+  "label": "CSS2"
 },
 {
   "status": "Recommendation",
@@ -1199,7 +1215,9 @@
   "date": "2021-02-11",
   "title": "CSS Cascading and Inheritance Level 3",
   "shortlink": "https://www.w3.org/TR/css-cascade-3/",
-  "errata": "https://www.w3.org/Style/2021/REC-css-cascade-3-20210211-errata.html"
+  "errata": "https://www.w3.org/Style/2021/REC-css-cascade-3-20210211-errata.html",
+  "repo": "csswg-drafts",
+  "label": "css-cascade-3"
 },
 {
   "status": "Recommendation",
@@ -1552,7 +1570,9 @@
   "uri": "https://www.w3.org/TR/2021/REC-html-20210128/",
   "date": "2021-01-28",
   "title": "HTML",
-  "shortlink": "https://www.w3.org/TR/html/"
+  "shortlink": "https://www.w3.org/TR/html/",
+  "repo": "html",
+  "owner": "whatwg"
 },
 {
   "status": "Recommendation",
@@ -1984,7 +2004,9 @@
   "date": "2019-12-10",
   "title": "CSS Writing Modes Level 3",
   "shortlink": "https://www.w3.org/TR/css-writing-modes-3/",
-  "errata": "https://www.w3.org/Style/2019/REC-css-writing-modes-3-20191210-errata.html"
+  "errata": "https://www.w3.org/Style/2019/REC-css-writing-modes-3-20191210-errata.html",
+  "repo": "csswg-drafts",
+  "label": "css-writing-modes-3"
 },
 {
   "status": "Recommendation",
@@ -2002,7 +2024,9 @@
   "uri": "https://www.w3.org/TR/2020/REC-css-contain-1-20201222/",
   "date": "2020-12-22",
   "title": "CSS Containment Module Level 1",
-  "shortlink": "https://www.w3.org/TR/css-contain-1/"
+  "shortlink": "https://www.w3.org/TR/css-contain-1/",
+  "repo": "csswg-drafts",
+  "label": "css-contain-1"
 },
 {
   "status": "Recommendation",
