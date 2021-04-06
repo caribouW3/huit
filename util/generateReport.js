@@ -20,9 +20,9 @@ function genSpecRow(spec){
     </tr>`;
   if (spec.repo !== undefined){
     if (spec.owner !== undefined){ owner = spec.owner }
-    pulse.getOpenIssues(owner,spec.repo) 
+    pulse.getOpenIssues(owner,spec.repo,spec.label) 
     .then ( r => { nbopen = r ; 
-                 pulse.getClosedIssues(owner,spec.repo)
+                 pulse.getClosedIssues(owner,spec.repo,spec.label)
                 .then( r => { nbclosed = r ; 
 		              if (nbclosed != 0){
 				var col = ((1 - nbopen/(nbopen+nbclosed))*120).toString(10) ;

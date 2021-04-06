@@ -1,18 +1,21 @@
 const fetch = require('node-fetch');
+const env = require('dotenv').config({path: __dirname + '/.env'});
+const { nextTick } = require('process');
  
-const accessToken = 'yourtokenhere';
+const accessToken = 'your-GH-token-here';
 
-function getClosedIssues(owner,repo){
+function getClosedIssues(owner,repo,label){
   return new Promise(function (resolve, reject) {
+  var labelq = '';
+  if (label !== undefined){ labelq = `, labels:"${label}"` ;}
   const query = `
    query {
     repository(owner:"${owner}", name:"${repo}") {
-      issues(states:CLOSED) {
+      issues(states:CLOSED ${labelq}) {
       totalCount
       }
     }
    }`;
-
   fetch('https://api.github.com/graphql', {
    method: 'POST',
    body: JSON.stringify({query}),
@@ -22,7 +25,7 @@ function getClosedIssues(owner,repo){
   } ,
   })
   .then (r => r.text())
-  .then(data => { obj = JSON.parse(data);
+  .then(data => { obj = JSON.parse(data); 
         resolve( obj.data.repository.issues.totalCount );
 	 // {"data":{"repository":{"issues":{"totalCount":247}}}}
   })
@@ -33,15 +36,16 @@ function getClosedIssues(owner,repo){
 
 
 
-function getOpenIssues(owner,repo){
+function getOpenIssues(owner,repo,label){
   return new Promise(function (resolve, reject) {
-
+  var labelq = '';
+  if (label !== undefined){ labelq = `, labels:"${label}"`; }  
   const query = `
    query {
     repository(owner:"${owner}", name:"${repo}") {
-      issues(states:OPEN) {
+      issues(states:OPEN ${labelq}) {
         totalCount
-      }
+       }
     }
    }`;
 
@@ -64,7 +68,8 @@ function getOpenIssues(owner,repo){
 )}
 
 
-/*test code
+// test code
+/*
 getClosedIssues ('w3c','webrtc-pc')
 .then (res => console.log(res))
 .then (res => { getOpenIssues ('w3c','webrtc-pc') 
