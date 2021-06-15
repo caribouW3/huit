@@ -3,13 +3,20 @@
       <style>
         table {
           width: 100%;
+          border-collapse: collapse;
         }
-        tr {
-          text-align: left;
-          border: 1px solid black;
+        th {
+           background: #222;
+           color: #eee;
         }
-        th, td {
+        tr, th {
           padding: 15px;
+          text-align: left;
+          border: none;
+        }
+        td { 
+          border: none;
+          padding: 10px;
         }
         tr:nth-child(odd) {
           background: #e6f2ff
@@ -46,7 +53,7 @@
     <tr >
     <td class='title'>XSL Transformations (XSLT) Version 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/1999/REC-xslt-19991116</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
@@ -58,26 +65,26 @@
     <tr >
     <td class='title'>Media Queries</td>
     <td class='latesturi'>https://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(60,100%,50%);">1 / 1</td>
     </tr>
     <tr >
     <td class='title'>CSS Style Attributes</td>
     <td class='latesturi'>https://www.w3.org/TR/2013/REC-css-style-attr-20131107/</td>
-    <td class='repo'>csswg-drafts</td>
-    <td class='openissues' style="background-color:hsl(120,100%,50%);">0 / 1</td>
+    <td class='repo'>w3c/csswg-drafts</td>
+    <td class='openissues' style="background-color:hsl(60,100%,50%);">1 / 1</td>
     </tr>
     <tr >
     <td class='title'>XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xqueryx-20101214/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
     <td class='title'>XML Path Language (XPath) 2.0 (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xpath20-20101214/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr class='retired'>
     <td class='title'>XHTML™ 1.1 - Module-based XHTML - Second Edition</td>
@@ -106,7 +113,7 @@
     <tr >
     <td class='title'>Selectors Level 3</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-selectors-3-20181106/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(96,100%,50%);">1 / 4</td>
     </tr>
     <tr >
@@ -118,13 +125,13 @@
     <tr >
     <td class='title'>XML Path Language (XPath) Version 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/1999/REC-xpath-19991116/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>CSS Namespaces Module Level 3</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-css-namespaces-3-20140320/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(80.00000000000001,100%,50%);">1 / 2</td>
     </tr>
     <tr >
@@ -250,7 +257,7 @@
     <tr >
     <td class='title'>CSS Basic User Interface Module Level 3 (CSS3 UI)</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-css-ui-3-20180621/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(108,100%,50%);">2 / 18</td>
     </tr>
     <tr >
@@ -292,7 +299,7 @@
     <tr >
     <td class='title'>CSS Fonts Module Level 3</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-css-fonts-3-20180920/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(107.5,100%,50%);">5 / 43</td>
     </tr>
     <tr >
@@ -376,8 +383,8 @@
     <tr >
     <td class='title'>XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xpath-datamodel-20101214/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>PROV-O: The PROV Ontology</td>
@@ -412,8 +419,8 @@
     <tr >
     <td class='title'>XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xpath-functions-20101214/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>XML Inclusions (XInclude) Version 1.0 (Second Edition)</td>
@@ -472,8 +479,8 @@
     <tr >
     <td class='title'>Core Accessibility API Mappings 1.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-core-aam-1.1-20171214/</td>
-    <td class='repo'>core-aam</td>
-    <td class='openissues' style="background-color:hsl(46.95652173913043,100%,50%);">42 / 27</td>
+    <td class='repo'>w3c/core-aam</td>
+    <td class='openissues' style="background-color:hsl(46.28571428571428,100%,50%);">43 / 27</td>
     </tr>
     <tr >
     <td class='title'>WebSub</td>
@@ -514,8 +521,8 @@
     <tr >
     <td class='title'>Accessible Rich Internet Applications (WAI-ARIA) 1.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/</td>
-    <td class='repo'>aria</td>
-    <td class='openissues' style="background-color:hsl(91.08135942327498,100%,50%);">234 / 737</td>
+    <td class='repo'>w3c/aria</td>
+    <td class='openissues' style="background-color:hsl(91.58841158841159,100%,50%);">237 / 764</td>
     </tr>
     <tr >
     <td class='title'>SPARQL Protocol for RDF</td>
@@ -568,7 +575,7 @@
     <tr >
     <td class='title'>WOFF File Format 2.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-WOFF2-20180301/</td>
-    <td class='repo'>woff</td>
+    <td class='repo'>w3c/woff</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">4 / 0</td>
     </tr>
     <tr >
@@ -628,8 +635,8 @@
     <tr >
     <td class='title'>User Timing Level 2</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-user-timing-2-20190226/</td>
-    <td class='repo'>user-timing</td>
-    <td class='openissues' style="background-color:hsl(108,100%,50%);">4 / 36</td>
+    <td class='repo'>w3c/user-timing</td>
+    <td class='openissues' style="background-color:hsl(105.36585365853658,100%,50%);">5 / 36</td>
     </tr>
     <tr >
     <td class='title'>XML Schema Part 0: Primer Second Edition</td>
@@ -640,7 +647,7 @@
     <tr >
     <td class='title'>XQuery 1.0 and XPath 2.0 Formal Semantics (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xquery-semantics-20101214/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
@@ -676,25 +683,25 @@
     <tr >
     <td class='title'>XQuery Update Facility 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2011/REC-xquery-update-10-20110317/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>XQuery 1.0: An XML Query Language (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xquery-20101214/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>Web Annotation Vocabulary</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-annotation-vocab-20170223/</td>
-    <td class='repo'>web-annotation</td>
+    <td class='repo'>w3c/web-annotation</td>
     <td class='openissues' style="background-color:hsl(105.49019607843137,100%,50%);">37 / 269</td>
     </tr>
     <tr >
     <td class='title'>CSS Color Module Level 3</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-css-color-3-20180619/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(110.76923076923077,100%,50%);">1 / 12</td>
     </tr>
     <tr >
@@ -724,13 +731,13 @@
     <tr >
     <td class='title'>XSLT 2.0 and XQuery 1.0 Serialization (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2010/REC-xslt-xquery-serialization-20101214/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
     <td class='title'>Timed Text Markup Language 1 (TTML1) (Third Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-ttml1-20181108/</td>
-    <td class='repo'>ttml1</td>
+    <td class='repo'>w3c/ttml1</td>
     <td class='openissues' style="background-color:hsl(110.23728813559322,100%,50%);">24 / 271</td>
     </tr>
     <tr >
@@ -742,14 +749,14 @@
     <tr >
     <td class='title'>XSL Transformations (XSLT) Version 2.0 (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/REC-xslt20-20210330/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
     <td class='title'>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</td>
     <td class='latesturi'>https://www.w3.org/TR/2011/REC-CSS2-20110607/</td>
-    <td class='repo'>csswg-drafts</td>
-    <td class='openissues' style="background-color:hsl(34.80916030534352,100%,50%);">93 / 38</td>
+    <td class='repo'>w3c/csswg-drafts</td>
+    <td class='openissues' style="background-color:hsl(35.18796992481204,100%,50%);">94 / 39</td>
     </tr>
     <tr >
     <td class='title'>Webmention</td>
@@ -808,7 +815,7 @@
     <tr >
     <td class='title'>Web Annotation Data Model</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-annotation-model-20170223/</td>
-    <td class='repo'>web-annotation</td>
+    <td class='repo'>w3c/web-annotation</td>
     <td class='openissues' style="background-color:hsl(105.49019607843137,100%,50%);">37 / 269</td>
     </tr>
     <tr >
@@ -880,14 +887,14 @@
     <tr >
     <td class='title'>ODRL Information Model 2.2</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-odrl-model-20180215/</td>
-    <td class='repo'>poe</td>
+    <td class='repo'>w3c/poe</td>
     <td class='openissues' style="background-color:hsl(116.11510791366906,100%,50%);">9 / 269</td>
     </tr>
     <tr >
     <td class='title'>TTML Profiles for Internet Media Subtitles and Captions 1.2</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-ttml-imsc1.2-20200804/</td>
-    <td class='repo'>imsc</td>
-    <td class='openissues' style="background-color:hsl(112.92134831460675,100%,50%);">21 / 335</td>
+    <td class='repo'>w3c/imsc</td>
+    <td class='openissues' style="background-color:hsl(111.97771587743733,100%,50%);">24 / 335</td>
     </tr>
     <tr >
     <td class='title'>QA Framework: Specification Guidelines</td>
@@ -916,8 +923,8 @@
     <tr >
     <td class='title'>CSS Cascading and Inheritance Level 3</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/REC-css-cascade-3-20210211/</td>
-    <td class='repo'>csswg-drafts</td>
-    <td class='openissues' style="background-color:hsl(113.6842105263158,100%,50%);">1 / 18</td>
+    <td class='repo'>w3c/csswg-drafts</td>
+    <td class='openissues' style="background-color:hsl(120,100%,50%);">0 / 18</td>
     </tr>
     <tr >
     <td class='title'>Efficient XML Interchange (EXI) Format 1.0 (Second Edition)</td>
@@ -934,14 +941,14 @@
     <tr >
     <td class='title'>XPath and XQuery Functions and Operators 3.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xpath-functions-31-20170321/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>Geolocation API Specification 2nd Edition</td>
     <td class='latesturi'>https://www.w3.org/TR/2016/REC-geolocation-API-20161108/</td>
-    <td class='repo'>geolocation-api</td>
-    <td class='openissues' style="background-color:hsl(105.88235294117646,100%,50%);">4 / 30</td>
+    <td class='repo'>w3c/geolocation-api</td>
+    <td class='openissues' style="background-color:hsl(106.04651162790698,100%,50%);">5 / 38</td>
     </tr>
     <tr >
     <td class='title'>SOAP Version 1.2 Part 0: Primer (Second Edition)</td>
@@ -964,8 +971,8 @@
     <tr >
     <td class='title'>Web of Things (WoT) Thing Description</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-wot-thing-description-20200409/</td>
-    <td class='repo'>wot-thing-description</td>
-    <td class='openissues' style="background-color:hsl(89.20529801324503,100%,50%);">155 / 449</td>
+    <td class='repo'>w3c/wot-thing-description</td>
+    <td class='openissues' style="background-color:hsl(90.87557603686636,100%,50%);">158 / 493</td>
     </tr>
     <tr >
     <td class='title'>OWL 2 Web Ontology Language Direct Semantics (Second Edition)</td>
@@ -1012,7 +1019,7 @@
     <tr >
     <td class='title'>XSL Transformations (XSLT) Version 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xslt-30-20170608/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
@@ -1030,8 +1037,8 @@
     <tr >
     <td class='title'>High Resolution Time Level 2</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-hr-time-2-20191121/</td>
-    <td class='repo'>hr-time</td>
-    <td class='openissues' style="background-color:hsl(112.6530612244898,100%,50%);">3 / 46</td>
+    <td class='repo'>w3c/hr-time</td>
+    <td class='openissues' style="background-color:hsl(110.4,100%,50%);">4 / 46</td>
     </tr>
     <tr >
     <td class='title'>XML Entity Definitions for Characters (2nd Edition)</td>
@@ -1054,13 +1061,13 @@
     <tr >
     <td class='title'>Trace Context - Level 1</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-trace-context-1-20200206/</td>
-    <td class='repo'>trace-context</td>
-    <td class='openissues' style="background-color:hsl(107.80748663101605,100%,50%);">19 / 168</td>
+    <td class='repo'>w3c/trace-context</td>
+    <td class='openissues' style="background-color:hsl(107.36842105263158,100%,50%);">20 / 170</td>
     </tr>
     <tr >
     <td class='title'>Graphics Accessibility API Mappings</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-graphics-aam-1.0-20181002/</td>
-    <td class='repo'>graphics-aam</td>
+    <td class='repo'>w3c/graphics-aam</td>
     <td class='openissues' style="background-color:hsl(120,100%,50%);">0 / 3</td>
     </tr>
     <tr >
@@ -1078,8 +1085,8 @@
     <tr >
     <td class='title'>Data Catalog Vocabulary (DCAT) - Version 2</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-vocab-dcat-2-20200204/</td>
-    <td class='repo'>dxwg</td>
-    <td class='openissues' style="background-color:hsl(90.98901098901098,100%,50%);">154 / 483</td>
+    <td class='repo'>w3c/dxwg</td>
+    <td class='openissues' style="background-color:hsl(92.33587786259542,100%,50%);">151 / 504</td>
     </tr>
     <tr class='retired'>
     <td class='title'>XHTML-Print - Second Edition</td>
@@ -1126,8 +1133,8 @@
     <tr >
     <td class='title'>TTML Profiles for Internet Media Subtitles and Captions 1.0.1 (IMSC1)</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-ttml-imsc1.0.1-20180424/</td>
-    <td class='repo'>imsc</td>
-    <td class='openissues' style="background-color:hsl(112.92134831460675,100%,50%);">21 / 335</td>
+    <td class='repo'>w3c/imsc</td>
+    <td class='openissues' style="background-color:hsl(111.97771587743733,100%,50%);">24 / 335</td>
     </tr>
     <tr >
     <td class='title'>Web Services SOAP Assertions (WS-SOAPAssertions)</td>
@@ -1156,8 +1163,8 @@
     <tr >
     <td class='title'>XQuery and XPath Full Text 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2015/REC-xpath-full-text-30-20151124/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>Accessible Rich Internet Applications (WAI-ARIA) 1.0</td>
@@ -1168,20 +1175,20 @@
     <tr >
     <td class='title'>XSLT and XQuery Serialization 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-xslt-xquery-serialization-30-20140408/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
     <td class='title'>HTML</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/REC-html-20210128/</td>
-    <td class='repo'>html</td>
-    <td class='openissues' style="background-color:hsl(71.07608366171567,100%,50%);">1345 / 1954</td>
+    <td class='repo'>whatwg/html</td>
+    <td class='openissues' style="background-color:hsl(71.41671606401897,100%,50%);">1366 / 2008</td>
     </tr>
     <tr >
     <td class='title'>JSON-LD 1.1 Processing Algorithms and API</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-json-ld11-api-20200716/</td>
-    <td class='repo'>json-ld-api</td>
-    <td class='openissues' style="background-color:hsl(110.52631578947368,100%,50%);">18 / 210</td>
+    <td class='repo'>w3c/json-ld-api</td>
+    <td class='openissues' style="background-color:hsl(111.65217391304347,100%,50%);">16 / 214</td>
     </tr>
     <tr class='retired'>
     <td class='title'>Data Catalog Vocabulary (DCAT)</td>
@@ -1204,13 +1211,13 @@
     <tr >
     <td class='title'>XQuery and XPath Full Text 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2011/REC-xpath-full-text-10-20110317/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr class='retired'>
     <td class='title'>Web Storage (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/SPSD-webstorage-20210128/</td>
-    <td class='repo'>webstorage</td>
+    <td class='repo'>w3c/webstorage</td>
     <td class='openissues' style="background-color:hsl(23.999999999999993,100%,50%);">4 / 1</td>
     </tr>
     <tr class='retired'>
@@ -1240,8 +1247,8 @@
     <tr >
     <td class='title'>XQuery and XPath Data Model 3.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xpath-datamodel-31-20170321/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>PICS 1.1 Label Distribution -- Label Syntax and Communication Protocols</td>
@@ -1252,7 +1259,7 @@
     <tr >
     <td class='title'>Activity Vocabulary</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-activitystreams-vocabulary-20170523/</td>
-    <td class='repo'>activitystreams</td>
+    <td class='repo'>w3c/activitystreams</td>
     <td class='openissues' style="background-color:hsl(103.34277620396601,100%,50%);">49 / 304</td>
     </tr>
     <tr >
@@ -1270,14 +1277,14 @@
     <tr >
     <td class='title'>Pointer Events</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-pointerevents2-20190404/</td>
-    <td class='repo'>pointerevents</td>
-    <td class='openissues' style="background-color:hsl(102.85714285714286,100%,50%);">27 / 162</td>
+    <td class='repo'>w3c/pointerevents</td>
+    <td class='openissues' style="background-color:hsl(102.26600985221674,100%,50%);">30 / 173</td>
     </tr>
     <tr >
     <td class='title'>Portable Network Graphics (PNG) Specification (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2003/REC-PNG-20031110/</td>
-    <td class='repo'>PNG-spec</td>
-    <td class='openissues' style="background-color:hsl(11.428571428571427,100%,50%);">19 / 2</td>
+    <td class='repo'>w3c/PNG-spec</td>
+    <td class='openissues' style="background-color:hsl(9.599999999999994,100%,50%);">23 / 2</td>
     </tr>
     <tr >
     <td class='title'>SPARQL Query Language for RDF</td>
@@ -1294,8 +1301,8 @@
     <tr >
     <td class='title'>Media Source Extensions™</td>
     <td class='latesturi'>https://www.w3.org/TR/2016/REC-media-source-20161117/</td>
-    <td class='repo'>media-source</td>
-    <td class='openissues' style="background-color:hsl(65.58139534883722,100%,50%);">78 / 94</td>
+    <td class='repo'>w3c/media-source</td>
+    <td class='openissues' style="background-color:hsl(65.14285714285715,100%,50%);">80 / 95</td>
     </tr>
     <tr class='retired'>
     <td class='title'>HTML 3.2 Reference Specification</td>
@@ -1354,13 +1361,13 @@
     <tr >
     <td class='title'>Publication Manifest</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-pub-manifest-20201110/</td>
-    <td class='repo'>pub-manifest</td>
+    <td class='repo'>w3c/pub-manifest</td>
     <td class='openissues' style="background-color:hsl(112.69565217391305,100%,50%);">7 / 108</td>
     </tr>
     <tr >
     <td class='title'>Digital Publishing WAI-ARIA Module 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-dpub-aria-1.0-20171214/</td>
-    <td class='repo'>dpub-aria</td>
+    <td class='repo'>w3c/dpub-aria</td>
     <td class='openissues' style="background-color:hsl(92.30769230769229,100%,50%);">6 / 20</td>
     </tr>
     <tr >
@@ -1378,14 +1385,14 @@
     <tr >
     <td class='title'>Subresource Integrity</td>
     <td class='latesturi'>https://www.w3.org/TR/2016/REC-SRI-20160623/</td>
-    <td class='repo'>webappsec-subresource-integrity</td>
-    <td class='openissues' style="background-color:hsl(84.70588235294117,100%,50%);">15 / 36</td>
+    <td class='repo'>w3c/webappsec-subresource-integrity</td>
+    <td class='openissues' style="background-color:hsl(83.07692307692308,100%,50%);">16 / 36</td>
     </tr>
     <tr >
     <td class='title'>Web of Things (WoT) Architecture</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-wot-architecture-20200409/</td>
-    <td class='repo'>wot-architecture</td>
-    <td class='openissues' style="background-color:hsl(98.18181818181817,100%,50%);">42 / 189</td>
+    <td class='repo'>w3c/wot-architecture</td>
+    <td class='openissues' style="background-color:hsl(97.85407725321889,100%,50%);">43 / 190</td>
     </tr>
     <tr >
     <td class='title'>RIF Datatypes and Built-Ins 1.0 (Second Edition)</td>
@@ -1402,8 +1409,8 @@
     <tr >
     <td class='title'>XML Path Language (XPath) 3.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xpath-31-20170321/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>RDF 1.1 N-Triples</td>
@@ -1420,7 +1427,7 @@
     <tr >
     <td class='title'>Digital Publishing Accessibility API Mappings</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-dpub-aam-1.0-20171214/</td>
-    <td class='repo'>dpub-aam</td>
+    <td class='repo'>w3c/dpub-aam</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">1 / 0</td>
     </tr>
     <tr class='retired'>
@@ -1438,19 +1445,19 @@
     <tr >
     <td class='title'>ActivityPub</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-activitypub-20180123/</td>
-    <td class='repo'>activitypub</td>
-    <td class='openissues' style="background-color:hsl(101.2624584717608,100%,50%);">47 / 254</td>
+    <td class='repo'>w3c/activitypub</td>
+    <td class='openissues' style="background-color:hsl(100.9271523178808,100%,50%);">48 / 254</td>
     </tr>
     <tr >
     <td class='title'>Pointer Lock</td>
     <td class='latesturi'>https://www.w3.org/TR/2016/REC-pointerlock-20161027/</td>
-    <td class='repo'>pointerlock</td>
-    <td class='openissues' style="background-color:hsl(58.37837837837838,100%,50%);">19 / 18</td>
+    <td class='repo'>w3c/pointerlock</td>
+    <td class='openissues' style="background-color:hsl(64.86486486486487,100%,50%);">17 / 20</td>
     </tr>
     <tr >
     <td class='title'>ODRL Vocabulary & Expression 2.2</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-odrl-vocab-20180215/</td>
-    <td class='repo'>poe</td>
+    <td class='repo'>w3c/poe</td>
     <td class='openissues' style="background-color:hsl(116.11510791366906,100%,50%);">9 / 269</td>
     </tr>
     <tr >
@@ -1486,20 +1493,20 @@
     <tr >
     <td class='title'>CSS Writing Modes Level 3</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-css-writing-modes-3-20191210/</td>
-    <td class='repo'>csswg-drafts</td>
+    <td class='repo'>w3c/csswg-drafts</td>
     <td class='openissues' style="background-color:hsl(111.11111111111111,100%,50%);">2 / 25</td>
     </tr>
     <tr >
     <td class='title'>Activity Streams 2.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-activitystreams-core-20170523/</td>
-    <td class='repo'>activitystreams</td>
+    <td class='repo'>w3c/activitystreams</td>
     <td class='openissues' style="background-color:hsl(103.34277620396601,100%,50%);">49 / 304</td>
     </tr>
     <tr >
     <td class='title'>CSS Containment Module Level 1</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-css-contain-1-20201222/</td>
-    <td class='repo'>csswg-drafts</td>
-    <td class='openissues' style="background-color:hsl(115,100%,50%);">2 / 46</td>
+    <td class='repo'>w3c/csswg-drafts</td>
+    <td class='openissues' style="background-color:hsl(117.6,100%,50%);">1 / 49</td>
     </tr>
     <tr >
     <td class='title'>RDF 1.1 Semantics</td>
@@ -1510,8 +1517,8 @@
     <tr >
     <td class='title'>Shapes Constraint Language (SHACL)</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-shacl-20170720/</td>
-    <td class='repo'>data-shapes</td>
-    <td class='openissues' style="background-color:hsl(105,100%,50%);">9 / 63</td>
+    <td class='repo'>w3c/data-shapes</td>
+    <td class='openissues' style="background-color:hsl(105.20547945205479,100%,50%);">9 / 64</td>
     </tr>
     <tr >
     <td class='title'>Web Services Fragment (WS-Fragment)</td>
@@ -1528,13 +1535,13 @@
     <tr >
     <td class='title'>Vibration API (Second Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2016/REC-vibration-20161018/</td>
-    <td class='repo'>vibration</td>
+    <td class='repo'>w3c/vibration</td>
     <td class='openissues' style="background-color:hsl(54.54545454545455,100%,50%);">6 / 5</td>
     </tr>
     <tr >
     <td class='title'>Data on the Web Best Practices</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-dwbp-20170131/</td>
-    <td class='repo'>dwbp</td>
+    <td class='repo'>w3c/dwbp</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
@@ -1552,8 +1559,8 @@
     <tr >
     <td class='title'>Semantic Sensor Network Ontology</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-vocab-ssn-20171019/</td>
-    <td class='repo'>sdw</td>
-    <td class='openissues' style="background-color:hsl(91.14982578397212,100%,50%);">69 / 218</td>
+    <td class='repo'>w3c/sdw</td>
+    <td class='openissues' style="background-color:hsl(89.2929292929293,100%,50%);">76 / 221</td>
     </tr>
     <tr class='retired'>
     <td class='title'>Cross-Origin Resource Sharing</td>
@@ -1594,8 +1601,8 @@
     <tr >
     <td class='title'>Generating JSON from Tabular Data on the Web</td>
     <td class='latesturi'>https://www.w3.org/TR/2015/REC-csv2json-20151217/</td>
-    <td class='repo'>csvw</td>
-    <td class='openissues' style="background-color:hsl(112.21945137157108,100%,50%);">26 / 375</td>
+    <td class='repo'>w3c/csvw</td>
+    <td class='openissues' style="background-color:hsl(111.94029850746269,100%,50%);">27 / 375</td>
     </tr>
     <tr >
     <td class='title'>Web Services Description Language (WSDL) Version 2.0 Part 2: Adjuncts</td>
@@ -1612,14 +1619,14 @@
     <tr >
     <td class='title'>XQuery 3.1: An XML Query Language</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xquery-31-20170321/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>Verifiable Credentials Data Model 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-vc-data-model-20191119/</td>
-    <td class='repo'>vc-data-model</td>
-    <td class='openissues' style="background-color:hsl(102.30088495575221,100%,50%);">50 / 289</td>
+    <td class='repo'>w3c/vc-data-model</td>
+    <td class='openissues' style="background-color:hsl(100.23121387283237,100%,50%);">57 / 289</td>
     </tr>
     <tr >
     <td class='title'>W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes</td>
@@ -1636,20 +1643,20 @@
     <tr >
     <td class='title'>Web Cryptography API</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-WebCryptoAPI-20170126/</td>
-    <td class='repo'>webcrypto</td>
-    <td class='openissues' style="background-color:hsl(93.75,100%,50%);">35 / 125</td>
+    <td class='repo'>w3c/webcrypto</td>
+    <td class='openissues' style="background-color:hsl(98.44311377245509,100%,50%);">30 / 137</td>
     </tr>
     <tr >
     <td class='title'>Web Authentication:An API for accessing Public Key Credentials Level 1</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-webauthn-1-20190304/</td>
-    <td class='repo'>webauthn</td>
-    <td class='openissues' style="background-color:hsl(114.46569178852644,100%,50%);">41 / 848</td>
+    <td class='repo'>w3c/webauthn</td>
+    <td class='openissues' style="background-color:hsl(113.77483443708608,100%,50%);">47 / 859</td>
     </tr>
     <tr >
     <td class='title'>Model for Tabular Data and Metadata on the Web</td>
     <td class='latesturi'>https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/</td>
-    <td class='repo'>csvw</td>
-    <td class='openissues' style="background-color:hsl(112.21945137157108,100%,50%);">26 / 375</td>
+    <td class='repo'>w3c/csvw</td>
+    <td class='openissues' style="background-color:hsl(111.94029850746269,100%,50%);">27 / 375</td>
     </tr>
     <tr class='retired'>
     <td class='title'>HTML 5.1 2nd Edition</td>
@@ -1666,7 +1673,7 @@
     <tr >
     <td class='title'>XQueryX 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-xqueryx-30-20140408/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr class='retired'>
@@ -1684,8 +1691,8 @@
     <tr >
     <td class='title'>WebRTC 1.0: Real-Time Communication Between Browsers</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/REC-webrtc-20210126/</td>
-    <td class='repo'>webrtc-pc</td>
-    <td class='openissues' style="background-color:hsl(119.45783132530121,100%,50%);">6 / 1322</td>
+    <td class='repo'>w3c/webrtc-pc</td>
+    <td class='openissues' style="background-color:hsl(119.45905334335087,100%,50%);">6 / 1325</td>
     </tr>
     <tr >
     <td class='title'>SOAP over Java Message Service 1.0</td>
@@ -1702,7 +1709,7 @@
     <tr >
     <td class='title'>HTML Media Capture</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-html-media-capture-20180201/</td>
-    <td class='repo'>html-media-capture</td>
+    <td class='repo'>w3c/html-media-capture</td>
     <td class='openissues' style="background-color:hsl(82.5,100%,50%);">5 / 11</td>
     </tr>
     <tr >
@@ -1720,38 +1727,38 @@
     <tr class='retired'>
     <td class='title'>HTML 5.2</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/SPSD-html52-20210128/</td>
-    <td class='repo'>html</td>
+    <td class='repo'>w3c/html</td>
     <td class='openissues' style="background-color:hsl(120,100%,50%);">0 / 941</td>
     </tr>
     <tr >
     <td class='title'>Indexed Database API</td>
     <td class='latesturi'>https://www.w3.org/TR/2015/REC-IndexedDB-20150108/</td>
-    <td class='repo'>IndexedDB</td>
-    <td class='openissues' style="background-color:hsl(98.32599118942731,100%,50%);">41 / 186</td>
+    <td class='repo'>w3c/IndexedDB</td>
+    <td class='openissues' style="background-color:hsl(97.75862068965517,100%,50%);">43 / 189</td>
     </tr>
     <tr >
     <td class='title'>XML Path Language (XPath) 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-xpath-30-20140408/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>Accessible Name and Description Computation 1.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-accname-1.1-20181218/</td>
-    <td class='repo'>accname</td>
-    <td class='openissues' style="background-color:hsl(21.573033707865168,100%,50%);">73 / 16</td>
+    <td class='repo'>w3c/accname</td>
+    <td class='openissues' style="background-color:hsl(26.25,100%,50%);">75 / 21</td>
     </tr>
     <tr >
     <td class='title'>Touch Events</td>
     <td class='latesturi'>https://www.w3.org/TR/2013/REC-touch-events-20131010/</td>
-    <td class='repo'>touch-events</td>
+    <td class='repo'>w3c/touch-events</td>
     <td class='openissues' style="background-color:hsl(74.75409836065575,100%,50%);">23 / 38</td>
     </tr>
     <tr >
     <td class='title'>TTML Profiles for Internet Media Subtitles and Captions 1.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-ttml-imsc1.1-20181108/</td>
-    <td class='repo'>imsc</td>
-    <td class='openissues' style="background-color:hsl(112.92134831460675,100%,50%);">21 / 335</td>
+    <td class='repo'>w3c/imsc</td>
+    <td class='openissues' style="background-color:hsl(111.97771587743733,100%,50%);">24 / 335</td>
     </tr>
     <tr >
     <td class='title'>Emotion Markup Language (EmotionML) 1.0</td>
@@ -1780,8 +1787,8 @@
     <tr >
     <td class='title'>Content Security Policy Level 2</td>
     <td class='latesturi'>https://www.w3.org/TR/2016/REC-CSP2-20161215/</td>
-    <td class='repo'>webappsec-csp</td>
-    <td class='openissues' style="background-color:hsl(72.8,100%,50%);">118 / 182</td>
+    <td class='repo'>w3c/webappsec-csp</td>
+    <td class='openissues' style="background-color:hsl(71.68831168831169,100%,50%);">124 / 184</td>
     </tr>
     <tr >
     <td class='title'>SPARQL 1.1 Federated Query</td>
@@ -1792,7 +1799,7 @@
     <tr >
     <td class='title'>WebAssembly Web API</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-wasm-web-api-1-20191205/</td>
-    <td class='repo'>spec</td>
+    <td class='repo'>WebAssembly/spec</td>
     <td class='openissues' style="background-color:hsl(80.00000000000001,100%,50%);">1 / 2</td>
     </tr>
     <tr class='retired'>
@@ -1804,14 +1811,14 @@
     <tr >
     <td class='title'>XPath and XQuery Functions and Operators 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-xpath-functions-30-20140408/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>JSON-LD 1.1 Framing</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-json-ld11-framing-20200716/</td>
-    <td class='repo'>json-ld-framing</td>
-    <td class='openissues' style="background-color:hsl(106.66666666666666,100%,50%);">4 / 32</td>
+    <td class='repo'>w3c/json-ld-framing</td>
+    <td class='openissues' style="background-color:hsl(101.53846153846153,100%,50%);">6 / 33</td>
     </tr>
     <tr >
     <td class='title'>Internationalization Tag Set (ITS) Version 2.0</td>
@@ -1822,8 +1829,8 @@
     <tr >
     <td class='title'>WebDriver</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-webdriver1-20180605/</td>
-    <td class='repo'>webdriver</td>
-    <td class='openissues' style="background-color:hsl(82.0069204152249,100%,50%);">183 / 395</td>
+    <td class='repo'>w3c/webdriver</td>
+    <td class='openissues' style="background-color:hsl(81.08658743633276,100%,50%);">191 / 398</td>
     </tr>
     <tr >
     <td class='title'>Metadata API for Media Resources 1.0</td>
@@ -1846,31 +1853,31 @@
     <tr >
     <td class='title'>Accessibility Conformance Testing (ACT) Rules Format 1.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-act-rules-format-1.0-20191031/</td>
-    <td class='repo'>wcag-act</td>
-    <td class='openissues' style="background-color:hsl(100.24844720496894,100%,50%);">53 / 269</td>
+    <td class='repo'>w3c/wcag-act</td>
+    <td class='openissues' style="background-color:hsl(99.32307692307693,100%,50%);">56 / 269</td>
     </tr>
     <tr >
     <td class='title'>WAI-ARIA Graphics Module</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-graphics-aria-1.0-20181002/</td>
-    <td class='repo'>graphics-aria</td>
+    <td class='repo'>w3c/graphics-aria</td>
     <td class='openissues' style="background-color:hsl(96,100%,50%);">1 / 4</td>
     </tr>
     <tr >
     <td class='title'>Web Annotation Protocol</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-annotation-protocol-20170223/</td>
-    <td class='repo'>web-annotation</td>
+    <td class='repo'>w3c/web-annotation</td>
     <td class='openissues' style="background-color:hsl(105.49019607843137,100%,50%);">37 / 269</td>
     </tr>
     <tr >
     <td class='title'>Web Content Accessibility Guidelines (WCAG) 2.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-WCAG21-20180605/</td>
-    <td class='repo'>wcag</td>
-    <td class='openissues' style="background-color:hsl(76.26666666666667,100%,50%);">410 / 715</td>
+    <td class='repo'>w3c/wcag</td>
+    <td class='openissues' style="background-color:hsl(70.49881235154395,100%,50%);">521 / 742</td>
     </tr>
     <tr >
     <td class='title'>Audiobooks</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-audiobooks-20201110/</td>
-    <td class='repo'>audiobooks</td>
+    <td class='repo'>w3c/audiobooks</td>
     <td class='openissues' style="background-color:hsl(104.72727272727273,100%,50%);">7 / 48</td>
     </tr>
     <tr >
@@ -1894,7 +1901,7 @@
     <tr >
     <td class='title'>WebAssembly JavaScript Interface</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-wasm-js-api-1-20191205/</td>
-    <td class='repo'>spec</td>
+    <td class='repo'>WebAssembly/spec</td>
     <td class='openissues' style="background-color:hsl(100,100%,50%);">1 / 5</td>
     </tr>
     <tr class='retired'>
@@ -1912,14 +1919,14 @@
     <tr >
     <td class='title'>XQuery and XPath Data Model 3.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-xpath-datamodel-30-20140408/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>XQuery 3.0: An XML Query Language</td>
     <td class='latesturi'>https://www.w3.org/TR/2014/REC-xquery-30-20140408/</td>
-    <td class='repo'>qtspecs</td>
-    <td class='openissues' style="background-color:hsl(6.315789473684217,100%,50%);">18 / 1</td>
+    <td class='repo'>w3c/qtspecs</td>
+    <td class='openissues' style="background-color:hsl(10.909090909090914,100%,50%);">20 / 2</td>
     </tr>
     <tr >
     <td class='title'>HTML5 Image Description Extension (longdesc)</td>
@@ -1930,20 +1937,20 @@
     <tr >
     <td class='title'>WebAssembly Core Specification</td>
     <td class='latesturi'>https://www.w3.org/TR/2019/REC-wasm-core-1-20191205/</td>
-    <td class='repo'>spec</td>
+    <td class='repo'>WebAssembly/spec</td>
     <td class='openissues' style="background-color:hsl(120,100%,50%);">0 / 8</td>
     </tr>
     <tr >
     <td class='title'>Metadata Vocabulary for Tabular Data</td>
     <td class='latesturi'>https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/</td>
-    <td class='repo'>csvw</td>
-    <td class='openissues' style="background-color:hsl(112.21945137157108,100%,50%);">26 / 375</td>
+    <td class='repo'>w3c/csvw</td>
+    <td class='openissues' style="background-color:hsl(111.94029850746269,100%,50%);">27 / 375</td>
     </tr>
     <tr >
     <td class='title'>Generating RDF from Tabular Data on the Web</td>
     <td class='latesturi'>https://www.w3.org/TR/2015/REC-csv2rdf-20151217/</td>
-    <td class='repo'>csvw</td>
-    <td class='openissues' style="background-color:hsl(112.21945137157108,100%,50%);">26 / 375</td>
+    <td class='repo'>w3c/csvw</td>
+    <td class='openissues' style="background-color:hsl(111.94029850746269,100%,50%);">27 / 375</td>
     </tr>
     <tr >
     <td class='title'>Role Attribute 1.0</td>
@@ -1978,25 +1985,25 @@
     <tr >
     <td class='title'>JSON-LD 1.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2020/REC-json-ld11-20200716/</td>
-    <td class='repo'>json-ld-syntax</td>
-    <td class='openissues' style="background-color:hsl(114.8076923076923,100%,50%);">9 / 199</td>
+    <td class='repo'>w3c/json-ld-syntax</td>
+    <td class='openissues' style="background-color:hsl(114.28571428571428,100%,50%);">10 / 200</td>
     </tr>
     <tr >
     <td class='title'>Timed Text Markup Language 2 (TTML2) (2nd Edition)</td>
     <td class='latesturi'>https://www.w3.org/TR/2021/CR-ttml2-20210309/</td>
-    <td class='repo'>ttml2</td>
-    <td class='openissues' style="background-color:hsl(113.75527426160338,100%,50%);">37 / 674</td>
+    <td class='repo'>w3c/ttml2</td>
+    <td class='openissues' style="background-color:hsl(113.61344537815125,100%,50%);">38 / 676</td>
     </tr>
     <tr >
     <td class='title'>XSLT and XQuery Serialization 3.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xslt-xquery-serialization-31-20170321/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
     <td class='title'>XQueryX 3.1</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-xqueryx-31-20170321/</td>
-    <td class='repo'>qtspecs</td>
+    <td class='repo'>w3c/qtspecs</td>
     <td class='openissues' style="background-color:hsl( 100, 100%, 50%);">0 / 0</td>
     </tr>
     <tr >
@@ -2008,12 +2015,12 @@
     <tr >
     <td class='title'>Encrypted Media Extensions</td>
     <td class='latesturi'>https://www.w3.org/TR/2017/REC-encrypted-media-20170918/</td>
-    <td class='repo'>encrypted-media</td>
-    <td class='openissues' style="background-color:hsl(104.52961672473867,100%,50%);">37 / 250</td>
+    <td class='repo'>w3c/encrypted-media</td>
+    <td class='openissues' style="background-color:hsl(103.86206896551725,100%,50%);">39 / 251</td>
     </tr>
     <tr >
     <td class='title'>Indexed Database API 2.0</td>
     <td class='latesturi'>https://www.w3.org/TR/2018/REC-IndexedDB-2-20180130/</td>
-    <td class='repo'>IndexedDB</td>
-    <td class='openissues' style="background-color:hsl(98.32599118942731,100%,50%);">41 / 186</td>
+    <td class='repo'>w3c/IndexedDB</td>
+    <td class='openissues' style="background-color:hsl(97.75862068965517,100%,50%);">43 / 189</td>
     </tr></table></body></html>
