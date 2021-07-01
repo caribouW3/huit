@@ -14,7 +14,7 @@ function genSpecRow(spec){
   defaultcode = `
     <tr ${retired}>
     <td class='title'>${spec.title}</td>
-    <td class='latesturi'>${spec.uri}</td>
+    <td class='latesturi'><a href='${spec.url}'>${spec.uri}</a></td>
     <td class='repo'>unknown</td>
     <td class='openissues'></td>
     </tr>`;
@@ -31,8 +31,8 @@ function genSpecRow(spec){
   code = `
     <tr ${retired}>
     <td class='title'>${spec.title}</td>
-    <td class='latesturi'>${spec.uri}</td>
-    <td class='repo'>${spec.repo}</td>
+    <td class='latesturi'><a href='${spec.uri}'>${spec.uri}</a></td>
+    <td class='repo'><a href='https://github.com/${owner}/${spec.repo}'>${owner}/${spec.repo}</a></td>
     <td class='openissues' style="background-color:${color}">${nbopen} / ${nbclosed}</td>
     </tr>`;
    resolve(code);
@@ -55,13 +55,20 @@ async function toHTML(data) {
       <style>
         table {
           width: 100%;
+          border-collapse: collapse;
         }
-        tr {
-          text-align: left;
-          border: 1px solid black;
+        th {
+           background: #222;
+           color: #eee;
         }
-        th, td {
+        tr, th {
           padding: 15px;
+          text-align: left;
+          border: none;
+        }
+        td { 
+          border: none;
+          padding: 10px;
         }
         tr:nth-child(odd) {
           background: #e6f2ff
@@ -73,7 +80,7 @@ async function toHTML(data) {
           background: #ccc !important;
         }
      </style>
-     <script src="sorttable.js"></script> 
+     <script src="util/sorttable.js"></script> 
     </head>
     <body>
     <table class="sortable">
