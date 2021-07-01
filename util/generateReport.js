@@ -14,7 +14,7 @@ function genSpecRow(spec){
   defaultcode = `
     <tr ${retired}>
     <td class='title'>${spec.title}</td>
-    <td class='latesturi'><a href='${spec.url}'>${spec.uri}</a></td>
+    <td class='latesturi'><a href='${spec.uri}'>${spec.uri}</a></td>
     <td class='repo'>unknown</td>
     <td class='openissues'></td>
     </tr>`;
