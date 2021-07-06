@@ -608,7 +608,8 @@
   "date": "2018-01-23",
   "title": "WebSub",
   "shortlink": "https://www.w3.org/TR/websub/",
-  "errata": "https://websub.net/errata"
+  "errata": "https://websub.net/errata",
+  "repo": "websub"
 },
 {
   "status": "Recommendation",
