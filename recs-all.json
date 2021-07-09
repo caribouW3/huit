@@ -74,6 +74,13 @@
   "repo": "qtspecs"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-xhtml11-20180327/",
+  "date": "2018-03-27",
+  "title": "XHTML™ 1.1 - Module-based XHTML - Second Edition",
+  "shortlink": "https://www.w3.org/TR/xhtml11/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2005/REC-charmod-20050215/",
   "date": "2005-02-15",
@@ -159,11 +166,25 @@
   "errata": "https://www.w3.org/2004/03/xmlschema-errata"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-CSS1-20180913/",
+  "date": "2018-09-13",
+  "title": "Cascading Style Sheets, level 1",
+  "shortlink": "https://www.w3.org/TR/CSS1/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2015/REC-scxml-20150901/",
   "date": "2015-09-01",
   "title": "State Chart XML (SCXML): State Machine Notation for Control Abstraction",
   "shortlink": "https://www.w3.org/TR/scxml/"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/",
+  "date": "2018-03-27",
+  "title": "XHTML™ Basic 1.1 - Second Edition",
+  "shortlink": "https://www.w3.org/TR/xhtml-basic/"
 },
 {
   "status": "Recommendation",
@@ -236,6 +257,13 @@
   "title": "XML Information Set (Second Edition)",
   "shortlink": "https://www.w3.org/TR/xml-infoset/",
   "errata": "https://www.w3.org/2001/10/02/xml-infoset-errata.html"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-html401-20180327/",
+  "date": "2018-03-27",
+  "title": "HTML 4.01 Specification",
+  "shortlink": "https://www.w3.org/TR/html401/"
 },
 {
   "status": "Recommendation",
@@ -311,6 +339,13 @@
   "errata": "https://www.w3.org/2001/05/ruby-errata"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2019/SPSD-WebCGM-20191205",
+  "date": "2019-12-05",
+  "title": "WebCGM 1.0 Second Release",
+  "shortlink": "https://www.w3.org/TR/REC-WebCGM/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2012/REC-owl2-new-features-20121211/",
   "date": "2012-12-11",
@@ -362,6 +397,13 @@
   "errata": "https://www.w3.org/WAI/GL/WAI-WEBCONTENT-ERRATA"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-html40-20180327/",
+  "date": "2018-03-27",
+  "title": "HTML 4.0 Recommendation",
+  "shortlink": "https://www.w3.org/TR/html40/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2014/REC-rdf-schema-20140225/",
   "date": "2014-02-25",
@@ -407,6 +449,13 @@
   "title": "Gleaning Resource Descriptions from Dialects of Languages (GRDDL)",
   "shortlink": "https://www.w3.org/TR/grddl/",
   "errata": "https://www.w3.org/2001/sw/grddl-wg/grddl-errata"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/",
+  "date": "2018-03-27",
+  "title": "XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)",
+  "shortlink": "https://www.w3.org/TR/xhtml1/"
 },
 {
   "status": "Recommendation",
@@ -503,6 +552,20 @@
   "title": "Mathematical Markup Language (MathML) 1.01 Specification",
   "shortlink": "https://www.w3.org/TR/REC-MathML/",
   "errata": "https://www.w3.org/MarkUp/mathml101-updates/errata.html"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-xhtml-modularization-20180327/",
+  "date": "2018-03-27",
+  "title": "XHTML™ Modularization 1.1 - Second Edition",
+  "shortlink": "https://www.w3.org/TR/xhtml-modularization/"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2019/SPSD-webcgm20-20191205/",
+  "date": "2019-12-05",
+  "title": "WebCGM 2.0",
+  "shortlink": "https://www.w3.org/TR/webcgm20/"
 },
 {
   "status": "Recommendation",
@@ -776,6 +839,13 @@
   "title": "XProc: An XML Pipeline Language",
   "shortlink": "https://www.w3.org/TR/xproc/",
   "errata": "https://www.w3.org/XML/2010/xproc-errata.html"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2020/SPSD-notifications-20200602/",
+  "date": "2020-06-02",
+  "title": "Web Notifications",
+  "shortlink": "https://www.w3.org/TR/notifications/"
 },
 {
   "status": "Recommendation",
@@ -1260,6 +1330,14 @@
   "errata": "https://www.w3.org/2010/rif/errata"
 },
 {
+  "status": "Retired",
+  "editor-draft": "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+  "uri": "https://www.w3.org/TR/2021/SPSD-eventsource-20210128/",
+  "date": "2021-01-28",
+  "title": "Server-Sent Events",
+  "shortlink": "https://www.w3.org/TR/eventsource/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2012/REC-owl2-xml-serialization-20121211/",
   "date": "2012-12-11",
@@ -1369,6 +1447,13 @@
   "shortlink": "https://www.w3.org/TR/vocab-dcat-2/",
   "errata": "https://w3c.github.io/dxwg/errata/",
   "repo": "dxwg"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-xhtml-print-20180327/",
+  "date": "2018-03-27",
+  "title": "XHTML-Print - Second Edition",
+  "shortlink": "https://www.w3.org/TR/xhtml-print/"
 },
 {
   "status": "Recommendation",
@@ -1503,6 +1588,20 @@
   "repo": "json-ld-api"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2020/SPSD-vocab-dcat-20200204/",
+  "date": "2020-02-04",
+  "title": "Data Catalog Vocabulary (DCAT)",
+  "shortlink": "https://www.w3.org/TR/vocab-dcat-1/"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2019/SPSD-hr-time-1-20191121/",
+  "date": "2019-11-21",
+  "title": "High Resolution Time",
+  "shortlink": "https://www.w3.org/TR/hr-time-1/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2012/REC-mediaont-10-20120209/",
   "date": "2012-02-09",
@@ -1518,6 +1617,22 @@
   "shortlink": "https://www.w3.org/TR/xpath-full-text-10/",
   "errata": "https://www.w3.org/XML/2012/qt-errata/xpath-full-text-10-errata.html",
   "repo": "qtspecs"
+},
+{
+  "status": "Retired",
+  "editor-draft": "https://w3c.github.io/webstorage/",
+  "uri": "https://www.w3.org/TR/2021/SPSD-webstorage-20210128/",
+  "date": "2021-01-28",
+  "title": "Web Storage (Second Edition)",
+  "shortlink": "https://www.w3.org/TR/webstorage/",
+  "repo": "webstorage"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2019/SPSD-user-timing-1-20190226/",
+  "date": "2019-02-26",
+  "title": "User Timing",
+  "shortlink": "https://www.w3.org/TR/user-timing-1/"
 },
 {
   "status": "Recommendation",
@@ -1628,6 +1743,13 @@
   "shortlink": "https://www.w3.org/TR/media-source/",
   "errata": "https://w3c.github.io/media-source/mse-1-errata.html",
   "repo": "media-source"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+  "date": "2018-03-15",
+  "title": "HTML 3.2 Reference Specification",
+  "shortlink": "https://www.w3.org/TR/REC-html32"
 },
 {
   "status": "Recommendation",
@@ -1794,6 +1916,20 @@
   "shortlink": "https://www.w3.org/TR/dpub-aam-1.0/",
   "errata": "https://www.w3.org/WAI/ARIA/1.1/errata/dpub",
   "repo": "dpub-aam"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-html5-20180327/",
+  "date": "2018-03-27",
+  "title": "HTML5",
+  "shortlink": "https://www.w3.org/TR/html5/"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2021/SPSD-2dcontext-20210128/",
+  "date": "2021-01-28",
+  "title": "HTML Canvas 2D Context",
+  "shortlink": "https://www.w3.org/TR/2dcontext/"
 },
 {
   "status": "Recommendation",
@@ -1974,6 +2110,28 @@
   "repo": "sdw"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2020/SPSD-cors-20200602/",
+  "date": "2020-06-02",
+  "title": "Cross-Origin Resource Sharing",
+  "shortlink": "https://www.w3.org/TR/cors/"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2018/SPSD-ttml-imsc1-20180626/",
+  "date": "2018-06-26",
+  "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
+  "shortlink": "https://www.w3.org/TR/ttml-imsc1/"
+},
+{
+  "status": "Retired",
+  "editor-draft": "https://xhr.spec.whatwg.org/",
+  "uri": "https://www.w3.org/TR/2020/SPSD-progress-events-20200602/",
+  "date": "2020-06-02",
+  "title": "Progress Events",
+  "shortlink": "https://www.w3.org/TR/progress-events/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2013/REC-performance-timeline-20131212/",
   "date": "2013-12-12",
@@ -2084,6 +2242,14 @@
   "repo": "csvw"
 },
 {
+  "status": "Retired",
+  "editor-draft": "https://rawgit.com/w3c/html/html5.1-2/single-page.html",
+  "uri": "https://www.w3.org/TR/2021/SPSD-html51-20210128/",
+  "date": "2021-01-28",
+  "title": "HTML 5.1 2nd Edition",
+  "shortlink": "https://www.w3.org/TR/html51/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2014/REC-exi-profile-20140909/",
   "date": "2014-09-09",
@@ -2098,6 +2264,14 @@
   "shortlink": "https://www.w3.org/TR/xqueryx-30/",
   "repo": "qtspecs",
   "label": "xqueryx"
+},
+{
+  "status": "Retired",
+  "editor-draft": "https://html.spec.whatwg.org/multipage/web-messaging.html",
+  "uri": "https://www.w3.org/TR/2021/SPSD-webmessaging-20210128/",
+  "date": "2021-01-28",
+  "title": "HTML5 Web Messaging",
+  "shortlink": "https://www.w3.org/TR/webmessaging/"
 },
 {
   "status": "Recommendation",
@@ -2159,6 +2333,15 @@
   "errata": "https://www.w3.org/2007/OWL/errata"
 },
 {
+  "status": "Retired",
+  "editor-draft": "https://w3c.github.io/html/",
+  "uri": "https://www.w3.org/TR/2021/SPSD-html52-20210128/",
+  "date": "2021-01-28",
+  "title": "HTML 5.2",
+  "shortlink": "https://www.w3.org/TR/html52/",
+  "repo": "html"
+},
+{
   "status": "Recommendation",
   "editor-draft": "https://w3c.github.io/IndexedDB/",
   "uri": "https://www.w3.org/TR/2015/REC-IndexedDB-20150108/",
@@ -2212,6 +2395,13 @@
   "shortlink": "https://www.w3.org/TR/emotionml/"
 },
 {
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2020/SPSD-json-ld-20201103/",
+  "date": "2020-11-03",
+  "title": "JSON-LD 1.0",
+  "shortlink": "https://www.w3.org/TR/json-ld/"
+},
+{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2014/REC-vocab-org-20140116/",
   "date": "2014-01-16",
@@ -2255,6 +2445,13 @@
   "owner": "WebAssembly",
   "repo": "spec",
   "label": "wasm-web-api-1"
+},
+{
+  "status": "Retired",
+  "uri": "https://www.w3.org/TR/2020/SPSD-json-ld-api-20201103/",
+  "date": "2020-11-03",
+  "title": "JSON-LD 1.0 Processing Algorithms and API",
+  "shortlink": "https://www.w3.org/TR/json-ld-api/"
 },
 {
   "status": "Recommendation",
@@ -2397,6 +2594,14 @@
   "owner": "WebAssembly",
   "repo": "spec",
   "label": "wasm-js-api-1"
+},
+{
+  "status": "Retired",
+  "editor-draft": "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html",
+  "uri": "https://www.w3.org/TR/2019/SPSD-pointerevents1-20190404/",
+  "date": "2019-04-04",
+  "title": "Pointer Events",
+  "shortlink": "https://www.w3.org/TR/pointerevents/"
 },
 {
   "status": "Recommendation",
