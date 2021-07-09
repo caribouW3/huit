@@ -288,13 +288,6 @@
   "errata": "https://www.w3.org/2002/11/xpath-filter2-errata.html"
 },
 {
-  "status": "Retired",
-  "uri": "https://www.w3.org/TR/2018/OBSL-P3P-20180830/",
-  "date": "2018-08-30",
-  "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification",
-  "shortlink": "https://www.w3.org/TR/P3P/"
-},
-{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2005/REC-xkms2-20050628/",
   "date": "2005-06-28",
@@ -1067,13 +1060,6 @@
   "errata": "https://www.w3.org/2010/rif/errata"
 },
 {
-  "status": "Retired",
-  "uri": "https://www.w3.org/TR/2018/OBSL-widgets-20181011/",
-  "date": "2018-10-11",
-  "title": "Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second Edition)",
-  "shortlink": "https://www.w3.org/TR/widgets/"
-},
-{
   "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2008/REC-xml-20081126/",
   "date": "2008-11-26",
@@ -1124,20 +1110,6 @@
   "title": "SPARQL 1.1 Query Results JSON Format",
   "shortlink": "https://www.w3.org/TR/sparql11-results-json/",
   "errata": "https://www.w3.org/2013/sparql-errata#sparql11-results-json"
-},
-{
-  "status": "Retired",
-  "uri": "https://www.w3.org/TR/2018/OBSL-widgets-access-20181011/",
-  "date": "2018-10-11",
-  "title": "Widget Access Request Policy",
-  "shortlink": "https://www.w3.org/TR/widgets-access/"
-},
-{
-  "status": "Retired",
-  "uri": "https://www.w3.org/TR/2018/OBSL-widgets-apis-20181011/",
-  "date": "2018-10-11",
-  "title": "Widget Interface",
-  "shortlink": "https://www.w3.org/TR/widgets-apis/"
 },
 {
   "status": "Recommendation",
@@ -1225,13 +1197,6 @@
   "title": "OWL 2 Web Ontology Language Direct Semantics (Second Edition)",
   "shortlink": "https://www.w3.org/TR/owl2-direct-semantics/",
   "errata": "https://www.w3.org/2007/OWL/errata"
-},
-{
-  "status": "Retired",
-  "uri": "https://www.w3.org/TR/2018/OBSL-view-mode-20181011/",
-  "date": "2018-10-11",
-  "title": "The \"view-mode\" Media Feature",
-  "shortlink": "https://www.w3.org/TR/view-mode/"
 },
 {
   "status": "Recommendation",
@@ -1401,13 +1366,6 @@
   "title": "RIF RDF and OWL Compatibility (Second Edition)",
   "shortlink": "https://www.w3.org/TR/rif-rdf-owl/",
   "errata": "https://www.w3.org/2010/rif/errata"
-},
-{
-  "status": "Retired",
-  "uri": "https://www.w3.org/TR/2018/OBSL-widgets-digsig-20181011/",
-  "date": "2018-10-11",
-  "title": "XML Digital Signatures for Widgets",
-  "shortlink": "https://www.w3.org/TR/widgets-digsig/"
 },
 {
   "status": "Recommendation",
