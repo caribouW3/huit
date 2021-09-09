@@ -656,11 +656,11 @@
 {
   "status": "Recommendation",
   "editor-draft": "https://w3c.github.io/woff/woff2/",
-  "uri": "https://www.w3.org/TR/2018/REC-WOFF2-20180301/",
-  "date": "2018-03-01",
+  "uri": "https://www.w3.org/TR/2021/REC-WOFF2-20210706/",
+  "date": "2021-07-06",
   "title": "WOFF File Format 2.0",
   "shortlink": "https://www.w3.org/TR/WOFF2/",
-  "errata": "https://www.w3.org/Fonts/REC-WOFF2-20180301-errata.html",
+  "errata": "https://www.w3.org/Fonts/REC-WOFF2-20210706-errata.html",
   "repo": "woff"
 },
 {
@@ -826,11 +826,11 @@
 {
   "status": "Recommendation",
   "editor-draft": "https://drafts.csswg.org/css-color-3/",
-  "uri": "https://www.w3.org/TR/2018/REC-css-color-3-20180619/",
-  "date": "2018-06-19",
+  "uri": "https://www.w3.org/TR/2021/REC-css-color-3-20210805/",
+  "date": "2021-08-05",
   "title": "CSS Color Module Level 3",
   "shortlink": "https://www.w3.org/TR/css-color-3/",
-  "errata": "https://www.w3.org/Style/2018/REC-css-color-3-20180619-errata.html",
+  "errata": "https://www.w3.org/Style/2021/REC-css-color-3-20210805-errta.html",
   "repo": "csswg-drafts",
   "label": "css-color-3"
 },
@@ -2524,5 +2524,27 @@
   "shortlink": "https://www.w3.org/TR/IndexedDB-2/",
   "errata": "https://github.com/w3c/IndexedDB/labels/errata",
   "repo": "IndexedDB"
-}]
+},
+{
+  "status": "Recommendation",
+  "editor-draft": "https://webaudio.github.io/web-audio-api/",
+  "uri": "https://www.w3.org/TR/2021/REC-webaudio-20210617/",
+  "date": "2021-06-17",
+  "title": "Web Audio API",
+  "shortlink": "https://www.w3.org/TR/webaudio/",
+  "errata": "https://www.w3.org/2011/audio/REC-webaudio-20210617-errata.html",
+  "repo": "web-audio-api",
+  "owner": "WebAudio"
+},
+{
+  "status": "Recommendation",
+  "editor-draft": "https://w3c.github.io/webauthn/",
+  "uri": "https://www.w3.org/TR/2021/REC-webauthn-2-20210408/",
+  "date": "2021-04-08",
+  "title": "Web Authentication: An API for accessing Public Key Credentials - Level 2",
+  "shortlink": "https://www.w3.org/TR/webauthn-2/",
+  "errata": "https://www.w3.org/2021/04/webauthn-2-errata.html",
+  "repo": "webauthn"
+}
+]
 }
