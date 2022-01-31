@@ -631,14 +631,6 @@
 },
 {
   "status": "Recommendation",
-  "uri": "https://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/",
-  "date": "2004-04-07",
-  "title": "Document Object Model (DOM) Level 3 Core Specification",
-  "shortlink": "https://www.w3.org/TR/DOM-Level-3-Core/",
-  "errata": "https://www.w3.org/2004/01/DOM-Level-3-errata"
-},
-{
-  "status": "Recommendation",
   "uri": "https://www.w3.org/TR/2011/REC-ccxml-20110705/",
   "date": "2011-07-05",
   "title": "Voice Browser Call Control: CCXML Version 1.0",
@@ -826,11 +818,11 @@
 {
   "status": "Recommendation",
   "editor-draft": "https://drafts.csswg.org/css-color-3/",
-  "uri": "https://www.w3.org/TR/2021/REC-css-color-3-20210805/",
-  "date": "2021-08-05",
+  "uri": "https://www.w3.org/TR/2022/REC-css-color-3-20220118/",
+  "date": "2022-01-18",
   "title": "CSS Color Module Level 3",
   "shortlink": "https://www.w3.org/TR/css-color-3/",
-  "errata": "https://www.w3.org/Style/2021/REC-css-color-3-20210805-errta.html",
+  "errata": "https://www.w3.org/Style/2022/REC-css-color-3-20220118-errata.html",
   "repo": "csswg-drafts",
   "label": "css-color-3"
 },
@@ -1293,11 +1285,12 @@
 {
   "status": "Recommendation",
   "editor-draft": "https://w3c.github.io/trace-context/",
-  "uri": "https://www.w3.org/TR/2020/REC-trace-context-1-20200206/",
-  "date": "2020-02-06",
-  "title": "Trace Context - Level 1",
+  "uri": "https://www.w3.org/TR/2021/REC-trace-context-1-20211123/",
+  "date": "2021-11-23",
+  "title": "Trace Context",
   "shortlink": "https://www.w3.org/TR/trace-context-1/",
-  "repo": "trace-context"
+  "repo": "trace-context",
+  "errata": "https://w3c.github.io/trace-context/errata.html"
 },
 {
   "status": "Recommendation",
@@ -2359,8 +2352,8 @@
 {
   "status": "Recommendation",
   "editor-draft": "https://dom.spec.whatwg.org/",
-  "uri": "https://www.w3.org/TR/2020/REC-dom-20201103/",
-  "date": "2020-11-03",
+  "uri": "https://www.w3.org/TR/2021/REC-dom-20210928/",
+  "date": "2021-09-28",
   "title": "DOM",
   "shortlink": "https://www.w3.org/TR/dom/"
 },
@@ -2545,6 +2538,26 @@
   "shortlink": "https://www.w3.org/TR/webauthn-2/",
   "errata": "https://www.w3.org/2021/04/webauthn-2-errata.html",
   "repo": "webauthn"
+},
+{
+  "status": "Recommendation",
+  "editor-draft": "https://w3c.github.io/vc-data-model/",
+  "uri": "https://www.w3.org/TR/2021/REC-vc-data-model-20211109/",
+  "date": "2021-11-09",
+  "title": "Verifiable Credentials Data Model v1.1",
+  "shortlink": "https://www.w3.org/TR/vc-data-model/",
+  "repo": "vc-data-model",
+  "owner": "w3c"
+},
+{
+  "status": "Recommendation",
+  "editor-draft": "https://w3c.github.io/html-aria/",
+  "uri": "https://www.w3.org/TR/2021/REC-html-aria-20211209/",
+  "date": "2021-12-09",
+  "title": "ARIA in HTML",
+  "shortlink": "https://www.w3.org/TR/html-aria/",
+  "repo": "html-aria",
+  "owner": "w3c"
 }
 ]
 }
